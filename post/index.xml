@@ -2,22 +2,31 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Suhana Bedi</title>
-    <link>https://example.com/post/</link>
+    <link>https://suhana13.github.io/post/</link>
     <description>Recent content in Posts on Suhana Bedi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Suhana Bedi</copyright>
     
-	<atom:link href="https://example.com/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://suhana13.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title></title>
-      <link>https://example.com/post/first_post/</link>
+      <link>https://suhana13.github.io/post/first_post/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://example.com/post/first_post/</guid>
+      <guid>https://suhana13.github.io/post/first_post/</guid>
       <description>Hey there ! This is my first post ! 😄</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://suhana13.github.io/post/test_post/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/post/test_post/</guid>
+      <description>This is a test post !</description>
     </item>
     
   </channel>
