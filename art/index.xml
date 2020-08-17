@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Artwork on Suhana Bedi</title>
+    <link>https://suhana13.github.io/art/</link>
+    <description>Recent content in My Artwork on Suhana Bedi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Suhana Bedi</copyright>
+    
+	<atom:link href="https://suhana13.github.io/art/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Beauty and Grace</title>
+      <link>https://suhana13.github.io/art/post-3/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-3/</guid>
+      <description>This is an image of an indian woman, embodying grace and poise.</description>
+    </item>
+    
+    <item>
+      <title>Indian Wedding</title>
+      <link>https://suhana13.github.io/art/post-6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-6/</guid>
+      <description>This is an Indian wedding scene drawn in a very famous indian art form called Madhubani. The colors represent the happiness that pervades throughout the scene. I also won International recognition for this painting.</description>
+    </item>
+    
+    <item>
+      <title>Mother&#39;s Day 2018</title>
+      <link>https://suhana13.github.io/art/post-1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-1/</guid>
+      <description>This was my Mom&amp;rsquo;s present for Mothers Day 2018. It is basically a representation of the beautiful bond shared by a mother and her child.</description>
+    </item>
+    
+    <item>
+      <title>Strokes of Life</title>
+      <link>https://suhana13.github.io/art/post-5/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-5/</guid>
+      <description>This is the coverpage of my book titled Strokes of Life. This hand symbolizes human life while the various pencil strokes over it, depict our experience, emotions and thoughts which constitue our entire being.</description>
+    </item>
+    
+    <item>
+      <title>The Golden Allure</title>
+      <link>https://suhana13.github.io/art/post-4/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-4/</guid>
+      <description>I feel that colors have a very powerful role in shaping a painting. Here, I have depicted a leaf in hues of gold and burnt sienna, symbolizing the majestic charm of nature.</description>
+    </item>
+    
+    <item>
+      <title>The sunset serenity</title>
+      <link>https://suhana13.github.io/art/post-2/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://suhana13.github.io/art/post-2/</guid>
+      <description>This is a simple scene of a flock of birds returning home at sunset. The serenity in the backdrop perfectly complements their emotion of returning home after a long and tiresome day.</description>
+    </item>
+    
+  </channel>
+</rss>
