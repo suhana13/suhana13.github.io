@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Research | Suhana Bedi</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    :root {
+      --stanford-red: #8C1515;
+      --text-color: #2D2D2D;
+      --light-gray: #f8f9fa;
+    }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      color: var(--text-color);
+    }
+
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    .navbar-brand {
+      font-weight: 600;
+    }
+
+    .nav-item {
+      margin-left: 10px;
+    }
+
+    h1 {
+      color: var(--stanford-red);
+      font-weight: 600;
+      margin-bottom: 2rem;
+    }
+
+    .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      margin-bottom: 2rem;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card-title {
+      color: var(--stanford-red);
+      font-weight: 600;
+      font-size: 1.4rem;
+      margin-bottom: 1rem;
+    }
+
+    .collaborators {
+      color: #666;
+      margin-bottom: 1rem;
+    }
+
+    .research-img {
+      width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 1rem;
+      max-height: 400px;
+      object-fit: contain;
+      background-color: #f8f9fa;
+      padding: 1rem;
+    }
+
+    .btn-outline-primary {
+      color: var(--stanford-red);
+      border-color: var(--stanford-red);
+    }
+
+    .btn-outline-primary:hover {
+      background-color: var(--stanford-red);
+      border-color: var(--stanford-red);
+      color: white;
+    }
+
+    footer {
+      background-color: var(--light-gray);
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+
+    .social-icons a {
+      color: #6c757d;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: var(--stanford-red);
+    }
+
+    .lead {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #4a4a4a;
+      max-width: 800px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Suhana Bedi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link active" href="/research/">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="container mt-5">
+    <h1>Research</h1>
+    <p class="lead mb-4">You can find some of my research papers below!</p>
+  </header>
+
+  <!-- Main Content -->
+  <main class="container my-5">
+        <!-- MedHELM Paper -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <img src="/images/research/medhelm.png" alt="MedHELM Evaluation Results" class="research-img mb-4">
+                <h2 class="card-title">MedHELM: Holistic Evaluation of Large Language Models for Medical Tasks</h2>
+                <p class="collaborators"><strong>Suhana Bedi</strong>*, Hejie Cui*, Miguel Fuentes*, Alyssa Unell*, Michael Wornow et al.</p>
+                <p class="text-muted">Under review (2025)</p>
+                <div class="mt-3">
+                    <a href="https://medhelm.stanford.edu" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-globe"></i> Website</a>
+                                         <a href="https://crfm-helm.readthedocs.io/en/latest/medhelm/" target="_blank" class="btn btn-outline-primary me-2"><i class="fab fa-github"></i> GitHub</a>
+                     <a href="https://www.arxiv.org/abs/2505.23802" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+                     <a href="https://hai.stanford.edu/news/holistic-evaluation-of-large-language-models-for-medical-applications" target="_blank" class="btn btn-outline-primary"><i class="fas fa-file-alt"></i> Blog</a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Measurement Paper -->
+        <div class="card mb-4">
+          <div class="card-body">
+              <img src="/images/research/measurement.png" alt="Measurement" class="research-img mb-4">
+              <h2 class="card-title">Measurement to Meaning: A Validity-Centered Framework for AI Evaluation</h2>
+              <p class="collaborators">Olawale Salaudeen*, Anka Reuel*, Ahmed Ahmed, <strong>Suhana Bedi</strong>, et al.</p>
+              <p class="text-muted">Under review (2025)</p>
+              <div class="mt-3">
+                   <a href="https://arxiv.org/abs/2505.10573" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- Distillation Paper -->
+      <div class="card mb-4">
+        <div class="card-body">
+            <img src="/images/research/distillation.png" alt="Distillation" class="research-img mb-4">
+            <h2 class="card-title">Distilling Large Language Models for Efficient Clinical Information Extraction</h2>
+            <p class="collaborators">Karthik S. Vedula, Annika Gupta, Akshay Swaminathan, Ivan Lopez, <strong>Suhana Bedi</strong>, Nigam H. Shah.</p>
+            <p class="text-muted">Under review (2025)</p>
+            <div class="mt-3">
+                 <a href="https://arxiv.org/abs/2501.00031" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+        </div>
+    </div>
+
+        <!-- Context Clues Paper -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <img src="/images/research/context-clues.png" alt="Context Clues Framework" class="research-img mb-4">
+                <h2 class="card-title">Context Clues: Evaluating Long Context Models for Clinical Prediction Tasks on EHRs</h2>
+                <p class="collaborators">Michael Wornow*, <strong>Suhana Bedi</strong>*, Miguel Fuentes, Ethan Steinberg, Jason Fries, Christopher Ré, Sanmi Koyejo, Nigam H. Shah</p>
+                <p class="text-muted">ICLR (2025)</p>
+                <div class="mt-3">
+                    <a href="https://github.com/som-shahlab/hf_ehr" target="_blank" class="btn btn-outline-primary me-2"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="https://huggingface.co/StanfordShahLab/gpt-base-512-clmbr" target="_blank" class="btn btn-outline-primary"><i class="fas fa-brain"></i> HuggingFace</a>
+                    <a href="https://arxiv.org/abs/2412.16178" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+                </div>
+            </div>
+        </div>
+
+          <!-- quest-ai -->
+      <div class="card mb-4">
+        <div class="card-body">
+            <img src="/images/research/quest.png" alt="quest" class="research-img mb-4">
+            <h2 class="card-title">QUEST-AI: A System for Question Generation, Verification, and Refinement using AI for USMLE-Style Exams</h2>
+            <p class="collaborators"><strong>Suhana Bedi*</strong>, Scott Fleming*, et al.</p>
+            <p class="text-muted">Pacific Symposium on Biocomputing (PSB), 2025</p>
+            <div class="mt-3">
+              <a href="https://www.worldscientific.com/doi/abs/10.1142/9789819807024_0005" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+        </div>
+
+        <!-- zipfit Paper -->
+        <div class="card mb-4">
+            <div class="card-body">
+                <img src="/images/research/zipfit.png" alt="zipfit" class="research-img mb-4">
+                <h2 class="card-title">ZIP-FIT: Embedding-Free Data Selection via Compression-Based Alignment</h2>
+                <p class="collaborators">Elyas Obbad*, Iddah Mlauzi, Brando Miranda, Rylan Schaeffer, Kamal Obbad, <strong>Suhana Bedi</strong>, Sanmi Koyejo</p>
+                <p class="text-muted">Under Review</p>
+                <div class="mt-3">
+                  <a href="https://arxiv.org/abs/2410.18194" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+                </div>
+            </div>
+        </div>
+
+<!-- jama review -->
+        <div class="card mb-4">
+          <div class="card-body">
+              <img src="/images/research/jama-review.png" alt="jama-review" class="research-img mb-4">
+              <h2 class="card-title">Testing and evaluation of health care applications of large language models: a systematic review</h2>
+              <p class="collaborators"><strong>Suhana Bedi*</strong>, Yutong Liu*, Lucy Orr-Ewing*, et al.</p>
+              <p class="text-muted">JAMA 2024</p>
+              <div class="mt-3">
+                <a href="https://jamanetwork.com/journals/jama/fullarticle/2825147" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+              </div>
+          </div>
+      </div>
+
+      <!-- meds -->
+      <div class="card mb-4">
+        <div class="card-body">
+            <img src="/images/research/meds.png" alt="jama-review" class="research-img mb-4">
+            <h2 class="card-title">meds_reader: A fast and efficient EHR processing library</h2>
+            <p class="collaborators">Ethan Steinberg*, Michael Wornow*, <strong>Suhana Bedi*</strong>, Jason Alan Fries, Matthew B. A. McDermott, Nigam H. Shah</p>
+            <p class="text-muted">ML4H 2024</p>
+            <div class="mt-3">
+              <a href="https://arxiv.org/abs/2409.09095" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+        </div>
+
+
+        <!-- nmed-comm -->
+      <div class="card mb-4">
+        <div class="card-body">
+            <img src="/images/research/nmed-comm.png" alt="nmed-comm" class="research-img mb-4">
+            <h2 class="card-title">Evaluating the clinical benefits of LLMs</h2>
+            <p class="collaborators"><strong>Suhana Bedi*</strong>, Sneha Jain, Nigam H. Shah</p>
+            <p class="text-muted">Nature Medicine, News & Views (2024)</p>
+            <div class="mt-3">
+              <a href="https://www.nature.com/articles/s41591-024-03181-6" target="_blank" class="btn btn-outline-primary me-2"><i class="fas fa-file-pdf"></i> Paper</a>
+            </div>
+        </div>
+    </div>
+
+      </p>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>&copy; 2025 Suhana Bedi. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="social-icons">
+            <a href="https://github.com/suhana13" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+            <a href="mailto:your.email@stanford.edu"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>

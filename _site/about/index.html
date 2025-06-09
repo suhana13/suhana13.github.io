@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Suhana Bedi</title>
+    <!-- Bootstrap CSS -->
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+        crossorigin="anonymous"
+    />
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+        rel="stylesheet"
+    />
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        :root {
+            --stanford-red: #8C1515;
+            --highlight-color: rgba(152, 251, 252, 0.3);
+            --text-color: #2D2D2D;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            color: var(--text-color);
+        }
+
+        .navbar {
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 600;
+        }
+
+        .nav-item {
+            margin-left: 10px;
+        }
+
+        h1, h2 {
+            color: var(--stanford-red);
+            font-weight: 600;
+            margin-top: 2rem;
+            margin-bottom: 1.5rem;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h1::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: var(--stanford-red);
+        }
+
+        h2 {
+            font-size: 2rem;
+            position: relative;
+            padding-bottom: 1rem;
+        }
+
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 40px;
+            height: 4px;
+            background: var(--stanford-red);
+        }
+
+        .highlight {
+            background-color: var(--highlight-color);
+            padding: 0.2em 0.1em;
+            border-radius: 3px;
+        }
+
+        .accent-text {
+            color: var(--stanford-red);
+            font-weight: 600;
+        }
+
+        .section-icon {
+            font-size: 2rem;
+            margin-right: 0.5rem;
+            color: var(--stanford-red);
+        }
+
+        .content-section {
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+            padding: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        footer {
+            background-color: #f8f9fa;
+            padding: 2rem 0;
+            margin-top: 3rem;
+        }
+
+        .social-icons a {
+            color: #6c757d;
+            font-size: 1.5rem;
+            margin: 0 10px;
+            transition: color 0.3s;
+        }
+
+        .social-icons a:hover {
+            color: var(--stanford-red);
+        }
+
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="/">Suhana Bedi</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarNav"
+                aria-controls="navbarNav"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container my-5">
+        <div class="content-section">
+            <h1><span class="section-icon">🔬</span>About</h1>
+            <p class="lead">I'm a second-year PhD student in Biomedical Data Science at Stanford University, working at the <span class="highlight">fascinating intersection of AI and healthcare</span>. My focus is developing and evaluating foundation models that don't just perform well in controlled settings, but can actually <span class="accent-text">make a meaningful difference</span> in real medical practice.</p>
+
+            <h2><span class="section-icon">🚀</span>What I Do</h2>
+            <p>Here's the challenge that drives my research: <span class="accent-text">AI systems that excel in labs often struggle in hospitals</span>. We have models that perform brilliantly on medical exams, yet healthcare systems remain cautious about deploying them. The issue? Current evaluation methods are like testing a car only on a closed track – they miss how it actually performs in real-world traffic.</p>
+
+            <p>I'm working to <span class="highlight">bridge this important gap</span> by creating evaluation frameworks that reflect the complexity of real clinical environments. This means testing AI systems not just with standard cases, but with the nuanced, interconnected challenges that clinicians face daily, where decisions impact entire care teams and patient outcomes.</p>
+
+            <p>My research covers designing <span class="highlight">comprehensive benchmarks</span> that capture clinical complexity, conducting prospective studies in live health systems, and building better foundation models with scalable architectures. The ultimate goal is <span class="accent-text">enabling clinicians to confidently assess AI tools</span> before deployment, turning research prototypes into reliable, evidence-based systems that genuinely improve patient care.</p>
+
+            <p>This work is especially important as we see the emergence of large language models, vision-language systems, and multi-agent networks that require new evaluation approaches. Through my collaboration with Stanford Health Care, we're working to meaningfully connect advanced AI research with practical clinical applications.</p>
+
+            <h2><span class="section-icon">🎯</span>My Journey</h2>
+            <p>My path here took some interesting turns, and I think that's what makes it valuable. I earned my Bachelor's in Data Science from UT Dallas (summa cum laude), but my real learning came from diverse experiences – from molecular biology labs to Google's research teams, where I built biomedical knowledge graphs and developed systems to make clinical data more accessible.</p>
+
+            <p>This varied background, from analyzing multi-omics datasets to deploying production-scale AI systems, gives me a helpful dual perspective. I understand both the technical challenges of building robust models and the practical considerations of implementing them in clinical settings where reliability matters most.</p>
+
+            <h2><span class="section-icon">💡</span>Beyond Research</h2>
+            <p>When I'm not buried in research, you'll find me at Pilates or out trying to catch waves (I recently got into surfing, and I love it). When I'm not focused on research, I really enjoy teaching and mentoring. I've led technical lectures on large language models and mentored over 70 students in applying data science to medical problems. There's something genuinely rewarding about helping students discover how they can use AI to contribute to healthcare.</p>
+
+            <p>What excites me most is that the next major advances in healthcare AI will likely come from collaborative efforts – people working together, questioning assumptions, and finding practical ways to bridge the gap between what's technically possible and what's clinically useful.</p>
+
+            <p>I'm always happy to discuss ideas, explore potential collaborations, or chat about the future of AI in medicine. Feel free to reach out!</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start">
+                    <p>&copy; 2025 Suhana Bedi. All rights reserved.</p>
+                </div>
+                <div class="col-md-6 text-center text-md-end">
+                    <div class="social-icons">
+                        <a href="https://github.com/suhana13" target="_blank"><i class="fab fa-github"></i></a>
+                        <a href="https://www.linkedin.com/in/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://twitter.com/" target="_blank"><i class="fab fa-twitter"></i></a>
+                        <a href="mailto:your.email@stanford.edu"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"
+    ></script>
+</body>
+</html> 

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>My Resumé on Suhana Bedi</title>
+    <link>https://suhana13.github.io/resum%C3%A9/</link>
+    <description>Recent content in My Resumé on Suhana Bedi</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Suhana Bedi</copyright>
+    
+	<atom:link href="https://suhana13.github.io/resum%C3%A9/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

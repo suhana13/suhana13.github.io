@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Suhana Bedi | PhD Student at Stanford</title>
+  <!-- Bootstrap CSS -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+    crossorigin="anonymous"
+  />
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap"
+    rel="stylesheet"
+  />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+    }
+    .hero {
+      background-color: #8C1515; /* Stanford Cardinal */
+      color: #fff;
+      padding: 4rem 0;
+      text-align: center;
+    }
+    .hero img {
+      width: 350px;
+      height: 350px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+      border: 3px solid white;
+    }
+    .hero h1 {
+      font-weight: 600;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 700px;
+      margin: 0 auto 2rem auto;
+    }
+    .section-heading {
+      font-weight: 600;
+      margin-bottom: 1rem;
+      color: #8C1515;
+    }
+    .card {
+      border: none;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      border-radius: 8px;
+      height: 100%;
+      transition: transform 0.3s ease;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+    }
+    .card-title {
+      font-weight: 600;
+      color: #8C1515;
+    }
+    .navbar {
+      box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    }
+    .navbar-brand {
+      font-weight: 600;
+    }
+    .nav-item {
+      margin-left: 10px;
+    }
+    .btn-primary {
+      background-color: #8C1515;
+      border-color: #8C1515;
+    }
+    .btn-primary:hover {
+      background-color: #720e0e;
+      border-color: #720e0e;
+    }
+    .btn-outline-primary {
+      color: #8C1515;
+      border-color: #8C1515;
+    }
+    .btn-outline-primary:hover {
+      background-color: #8C1515;
+      border-color: #8C1515;
+    }
+    footer {
+      background-color: #f8f9fa;
+      padding: 2rem 0;
+      margin-top: 3rem;
+    }
+    .social-icons a {
+      color: #6c757d;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+    .social-icons a:hover {
+      color: #8C1515;
+    }
+    .hero .social-icons a {
+      color: white;
+      font-size: 1.3rem;
+      margin: 0 15px;
+      opacity: 0.9;
+    }
+    .hero .social-icons a:hover {
+      color: white;
+      opacity: 1;
+    }
+    .cv-button {
+      display: inline-flex;
+      align-items: center;
+      padding: 0.5rem 1rem;
+      font-weight: 600;
+      border: 2px solid currentColor;
+      border-radius: 4px;
+      transition: all 0.3s;
+      margin: 0 15px;
+    }
+    .hero .cv-button {
+      color: white;
+      opacity: 0.9;
+    }
+    .hero .cv-button:hover {
+      color: white;
+      opacity: 1;
+      background: rgba(255,255,255,0.1);
+    }
+    .cv-button i {
+      margin-right: 8px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 sticky-top">
+    <div class="container">
+      <a class="navbar-brand" href="/">Suhana Bedi</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="/about/">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="/research/">Research</a></li>
+          <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <img src="/images/headshot.jpg" alt="Suhana Bedi" />
+      <h1>Suhana Bedi</h1>
+      <p>
+        I'm a second-year PhD student in Biomedical Data Science at Stanford University, working at the intersection of AI and healthcare</span>.
+        My focus is developing and evaluating Foundation Models that don't just perform well in controlled settings, 
+        but can actually <span style="font-weight: 600">make a meaningful difference</span> in real medical practice.
+      </p>
+      <div class="social-icons mb-3">
+        <a href="https://www.linkedin.com/in/suhana-bedi-486a551b5" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        <a href="https://x.com/BediSuhana42170" target="_blank" title="X"><i class="fab fa-twitter"></i></a>
+        <a href="https://github.com/suhana13" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+      </div>
+      <div class="mb-4">
+        <a href="/assets/cv/cv.pdf" target="_blank" class="cv-button" title="Download CV">
+          <i class="fas fa-file-alt"></i>
+          Download CV
+        </a>
+      </div>
+      <a href="/about/" class="btn btn-light btn-lg">Learn More</a>
+    </div>
+  </section>
+
+  <!-- Main Content Section -->
+  <main class="container my-5">
+    <!-- Recent News Section -->
+    <div class="row">
+      <div class="col-12">
+        <h2 class="section-heading">Recent News</h2>
+        <div class="card">
+          <div class="card-body">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item d-flex">
+                <span class="text-muted me-3">Jun 2025</span>
+                <span>Presenting at the Doctoral Symposium at 6th Annual Conference on Health, Inference, and Learning (CHIL 2025)</span>
+              </li>
+              <li class="list-group-item d-flex">
+                <span class="text-muted me-3">Jun 2025</span>
+                <span>Incoming intern at Microsoft Research Health Futures Team</span>
+              </li>
+              <li class="list-group-item d-flex">
+                <span class="text-muted me-3">Feb 2025</span>
+                <span>MedHELM is finally releasted! </span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 text-center text-md-start">
+          <p>&copy; 2025 Suhana Bedi. All rights reserved.</p>
+        </div>
+        <div class="col-md-6 text-center text-md-end">
+          <div class="social-icons">
+            <a href="https://github.com/suhana13" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/suhana-bedi-486a551b5" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="https://x.com/BediSuhana42170" target="_blank" title="X"><i class="fab fa-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"
+  ></script>
+</body>
+</html>
