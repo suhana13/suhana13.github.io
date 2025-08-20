@@ -137,6 +137,34 @@
     .cv-button i {
       margin-right: 8px;
     }
+    .news-container {
+      max-height: 350px;
+      overflow-y: auto;
+      padding-right: 10px;
+    }
+    .news-container::-webkit-scrollbar {
+      width: 8px;
+    }
+    .news-container::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      border-radius: 10px;
+    }
+    .news-container::-webkit-scrollbar-thumb {
+      background: #8C1515;
+      border-radius: 10px;
+    }
+    .news-container::-webkit-scrollbar-thumb:hover {
+      background: #720e0e;
+    }
+    .news-item {
+      border-left: 3px solid transparent;
+      transition: border-color 0.3s ease, background-color 0.3s ease;
+    }
+    .news-item:hover {
+      border-left-color: #8C1515;
+      background-color: #f8f9fa;
+    }
+
   </style>
 </head>
 <body>
@@ -198,20 +226,30 @@
         <h2 class="section-heading">Recent News</h2>
         <div class="card">
           <div class="card-body">
-            <ul class="list-group list-group-flush">
-              <li class="list-group-item d-flex">
-                <span class="text-muted me-3">Jun 2025</span>
-                <span>Presenting at the Doctoral Symposium at 6th Annual Conference on Health, Inference, and Learning (CHIL 2025)</span>
-              </li>
-              <li class="list-group-item d-flex">
-                <span class="text-muted me-3">Jun 2025</span>
-                <span>Incoming intern at Microsoft Research Health Futures Team</span>
-              </li>
-              <li class="list-group-item d-flex">
-                <span class="text-muted me-3">Feb 2025</span>
-                <span>MedHELM is finally releasted! </span>
-              </li>
-            </ul>
+            <div class="news-container">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item d-flex news-item">
+                  <span class="text-muted me-3">Aug 2025</span>
+                  <span><strong>New paper published in JAMA Network Open:</strong> "Fidelity of Medical Reasoning in Large Language Models" 📄</span>
+                </li>
+                <li class="list-group-item d-flex news-item">
+                  <span class="text-muted me-3">July 2025</span>
+                  <span><strong>Optimization Paradox paper accepted as Oral at KDD 2025!</strong> 🎉</span>
+                </li>
+                <li class="list-group-item d-flex news-item">
+                  <span class="text-muted me-3">Jun 2025</span>
+                  <span>Presenting at the Doctoral Symposium at 6th Annual Conference on Health, Inference, and Learning (CHIL 2025)</span>
+                </li>
+                <li class="list-group-item d-flex news-item">
+                  <span class="text-muted me-3">Jun 2025</span>
+                  <span>Incoming intern at Microsoft Research Health Futures Team</span>
+                </li>
+                <li class="list-group-item d-flex news-item">
+                  <span class="text-muted me-3">Feb 2025</span>
+                  <span>MedHELM is finally releasted! </span>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
